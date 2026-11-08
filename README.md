@@ -28,3 +28,13 @@ Then open `http://localhost:8080`.
 ## Publishing
 
 Recommended path: push this folder to a GitHub repository, connect the repository to Cloudflare Pages, and add a custom domain later.
+
+## Deploy changes
+
+Cloudflare Pages is connected to the GitHub repository. After the first setup, deploy updates with:
+
+```powershell
+./deploy.ps1 -Message "Describe the change"
+```
+
+The script stages the portfolio files, creates a commit, and pushes to `main`. A GitHub push triggers a new Cloudflare Pages deployment automatically.
