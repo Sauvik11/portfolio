@@ -38,3 +38,7 @@ Cloudflare Pages is connected to the GitHub repository. After the first setup, d
 ```
 
 The script stages the portfolio files, creates a commit, and pushes to `main`. A GitHub push triggers a new Cloudflare Pages deployment automatically.
+
+## Inquiry database setup
+
+The form posts to `/api/inquiries`, which is implemented as a Cloudflare Pages Function. In Cloudflare, create a D1 database, run `schema.sql`, and bind it to the Pages project with the binding name `DB`. The function will then save each enquiry with its selected pathway, name, phone number, requirement, and timestamp.
