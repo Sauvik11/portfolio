@@ -1,5 +1,6 @@
 name = "portfolio"
 compatibility_date = "2026-11-04"
+main = "src/index.js"
 
 [assets]
 directory = "."
