@@ -7,5 +7,5 @@ form.addEventListener('submit', (event) => {
   const subject = encodeURIComponent(`Automation enquiry from ${data.get('name')}`);
   const body = encodeURIComponent(`Name: ${data.get('name')}\nEmail: ${data.get('email')}\n\n${data.get('message')}`);
   status.textContent = 'Opening your email app…';
-  window.location.href = `mailto:your@email.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:m.sauvik11@gmail.com?subject=${subject}&body=${body}`;
 });
