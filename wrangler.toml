@@ -1,0 +1,8 @@
+name = "portfolio"
+compatibility_date = "2026-11-04"
+pages_build_output_dir = "."
+
+[[d1_databases]]
+binding = "DB"
+database_name = "portfolio-inquiries"
+database_id = "cac7cd49-b81a-4c9c-97b8-3b55f481fb56"
